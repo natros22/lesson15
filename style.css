@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+@media (min-width: 1400px){
+
+body{
+    margin-left: 124px;
+    margin-top: 91px;
+}
+
+h1{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55.76px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.section{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+}
+
+.cameraman1{
+    width: 77%;
+    margin-top: 10rem;
+    margin-left: 1em;
+    position: absolute;
+}
+
+.ellipse1{
+    background-color: #EFEFEF;
+    height: 4rem;
+    width: 23rem;
+    border-radius: 50%;
+    margin-top: 17em;
+
+}
+
+aside{
+    display: flex;    
+    flex-direction: column;
+    position:relative;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.cameraman2{
+    width: 18%;
+    position: absolute;
+}
+
+.ellipse2{    
+    background-color: #EFEFEF;
+    height: 32px;
+    width: 189px;
+    border-radius: 50%;
+    margin-top: 11em;
+    margin-left: 3em;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 9em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:23.4px;
+}
+
+.learning{
+    margin-left: 8.5em;
+    margin-right: 6em;
+    margin-top: 3em;
+}
+
+.two-hours{
+    margin-right: 4em;
+    margin-top: 3em;
+    width: 14%;
+}
+
+.three-weeks{
+    margin-top: 3em;
+    width: 15%
+}
+
+.three-weeks p{
+    padding-right: 2em;
+}
+}
+
+@media screen and (max-width: 1399px) and (min-width: 841px){
+
+body{
+    margin-left: 72px;
+    margin-top: 56px;
+    }
+
+h1{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32.44px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.section{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.cameraman1{
+    width: 77%;
+    margin-top: 6rem;
+    margin-left: 3em;
+    position: absolute;
+}
+
+.ellipse1{
+    background-color: #EFEFEF;
+    height: 3em;
+    width: 17em;
+    border-radius: 50%;
+    margin-top: 19em;
+}
+
+aside{
+    display: flex;    
+    flex-direction: column;
+    position:relative;
+    margin-left: 8em;
+    margin-right: 7em;
+}
+
+.cameraman2, .ellipse2{
+    display: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 2em;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.5px;
+}
+
+.learning{
+    margin-right: 6em;
+}
+
+.two-hours{
+    margin-right: 5em;
+    width: 15%;
+}
+.three-weeks{
+    width: 15%;
+}
+}
+
+@media screen and (max-width: 840px) and (min-width: 375px){
+body{
+    margin-left: 36px;
+    margin-top: 56px;
+}
+
+h1{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.36px;
+}
+
+main{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+section{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+}
+
+.cameraman1{
+    width: 91%;
+    margin-top: 0rem;
+    margin-left: -2em;
+    position: absolute;
+}
+.ellipse1{
+    background-color: #EFEFEF;
+    height: 4em;
+    width: 12em;
+    border-radius: 50%;
+    margin-top: 9em;
+    margin-left: -2em;
+}
+
+aside{
+    display: flex;    
+    flex-direction: column;
+    position:relative;
+    margin-left: 10em;
+    margin-right: 7em;
+} 
+
+.cameraman2, .ellipse2{
+    display: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 2em;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.5px;
+}
+
+.learning{
+    margin-right: 3em;
+}
+
+.two-hours{
+    margin-right: 0em;
+    width: 44%;
+}
+
+.three-weeks{
+    width: 38%;
+}
+}
